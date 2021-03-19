@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap');
+*{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: large;
+}
+
+body{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+
+.header{
+    background: tomato;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.logo{
+    width: 250px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: lightgray;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.nav_bar{
+    height: 75px;
+    width: 250px;
+    background: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.intro_box{
+    align-items: center;
+    text-align: center;
+}
+
+ .terminal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.toolbar{
+    display: flex;
+    color: grey;
+    width: 50%;
+    flex-direction: crow;
+    align-items: center;
+    justify-content:space-between;
+    background: lightgrey;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cmd{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    background: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.reference_box{
+    align-items: center;
+    text-align: center;
+}
+
+.contact{
+    width: 250px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: lightgray;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.footer{
+    background: tomato;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.copyright{
+    width: 250px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: lightgray;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
